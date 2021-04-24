@@ -10,5 +10,6 @@
 }
 
 .box:hover {
-  transform: translate(30px, 10px);
+  transform: scale(1.5);
+  transform-origin: left top;
 }
