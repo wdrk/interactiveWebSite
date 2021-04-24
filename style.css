@@ -10,5 +10,5 @@
 }
 
 .box:hover {
-  transform: scale(2) rotate(15deg);
+  transform: translate(30px, 10px);
 }
