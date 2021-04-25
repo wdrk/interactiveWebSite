@@ -1,11 +1,22 @@
-@keyframes running-ani {
-  to {
-    background-position: -768px 0;
-  }
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 150px;
+  margin: 1em;
+  border-radius: 0.5em;
+  background-color: red;
+  font-size: 1.5rem;
+  transform: perspective(500px) rotateY(45deg);
 }
-.running {
-  width: 128px;
-  height: 128px;
-  background: url('./images/spritestrip-256x256.png') no-repeat 0 0 / auto 128px;
-  animation: running-ani 0.7s infinite steps(6);
+
+.world {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+  background-color: yellow;
+  /* perspective: 500px; */
 }
