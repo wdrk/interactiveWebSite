@@ -30,6 +30,7 @@
   top: 0;
   width: 100%;
   height: 100%;
+  backface-visibility: hidden;
 }
 .card-side-front {
   background-color: white;
