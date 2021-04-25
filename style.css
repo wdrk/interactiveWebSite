@@ -36,4 +36,5 @@
 }
 .card-side-rear {
   background-color: red;
+  transform: rotateY(180deg);
 }
