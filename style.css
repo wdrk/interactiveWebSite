@@ -1,20 +1,21 @@
 .characters {
   display: flex;
+  background-color: yellow;
 }
 .ilbuni {
   width: 100px;
   height: 100px;
-  border: 1px solid yellow;
+  border: 3px solid white;
 }
-.a {
+.ilbuni.a {
   background-color: antiquewhite;
 }
-.b {
+.ilbuni.b {
   background-color: blue;
 }
-.c {
+.ilbuni.c {
   background-color: burlywood;
 }
-.d {
+.ilbuni.d {
   background-color: darkcyan;
 }
