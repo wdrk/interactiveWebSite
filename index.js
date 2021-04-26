@@ -1,12 +1,14 @@
-// 엘리먼트 생성
-const elem = document.createElement('p');
+const item = document.querySelector('.ilbuni');
 
-// 엘리먼트에 내용을 설정
-elem.innerHTML = '<a href="#">Hello</a>???';
+// 기존의 클래스를 그대로 두고 새로운 클래스를 추가
+item.classList.add('special');
 
-// 원하는 엘리먼트를 가져와서 자식 엘리먼트로 등록하기
-const charactersElem = document.querySelector('.characters');
-charactersElem.appendChild(elem);
+// 기존의 클래스를 모두 지우고 새로운 클래스로 설정
+item.className = 'special';
 
-// 자식 엘리먼트 삭제
-charactersElem.removeChild(document.querySelector('.b'));
+// 클래스 삭제
+const item2 = document.querySelector('.ilbuni');
+item2.classList.remove('ilbuni');
+
+// 클래스 껐다켰다 가능
+item2.classList.toggle('special');

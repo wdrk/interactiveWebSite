@@ -19,3 +19,6 @@
 .ilbuni.d {
   background-color: darkcyan;
 }
+.special {
+  border: 10px dashed red;
+}
