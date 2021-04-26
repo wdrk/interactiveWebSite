@@ -4,8 +4,7 @@
   background-color: gray;
 }
 .item {
-  flex-grow: 1;
-  flex-basis: 0;
+  flex: 1;
   font-size: 1em;
   border: 3px solid black;
   background-color: white;
