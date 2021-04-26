@@ -1,11 +1,20 @@
-.container {
+.characters {
   display: flex;
-  height: 80vh;
-  background-color: gray;
 }
-.item {
-  flex: 1;
-  font-size: 1em;
-  border: 3px solid black;
-  background-color: white;
+.ilbuni {
+  width: 100px;
+  height: 100px;
+  border: 1px solid yellow;
+}
+.a {
+  background-color: antiquewhite;
+}
+.b {
+  background-color: blue;
+}
+.c {
+  background-color: burlywood;
+}
+.d {
+  background-color: darkcyan;
 }
