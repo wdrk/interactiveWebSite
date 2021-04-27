@@ -1,4 +1,4 @@
 const ilbuniC = document.querySelector('.ilbuni.c');
 ilbuniC.addEventListener('click', () => {
-  ilbuniC.classList.add('special');
+  ilbuniC.classList.toggle('special');
 });
