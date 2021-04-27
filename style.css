@@ -20,3 +20,23 @@
   height: 100%;
   background-color: black;
 }
+.ilbuni {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  outline: 2px dashed red;
+}
+.door:nth-child(1) .ilbuni {
+  background-color: green;
+}
+.door:nth-child(2) .ilbuni {
+  background-color: purple;
+}
+.door:nth-child(3) .ilbuni {
+  background-color: blue;
+}
