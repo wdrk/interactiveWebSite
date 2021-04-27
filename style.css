@@ -1,4 +1,5 @@
 .stage {
+  overflow: hidden; /* 바깥으로 나가는 오브젝트는 안보는 옵션 */
   position: relative;
   width: 100vw;
   height: 75vw;
