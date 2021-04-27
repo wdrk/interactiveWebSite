@@ -27,17 +27,17 @@
   left: 5%;
   top: 5%;
   background-color: white;
-  animation-duration: 2.2s;
+  /* animation-duration: 3.7s; */
 }
 .ilbuni:nth-of-type(2) {
   left: 7%;
   bottom: 40%;
   background-color: black;
-  animation-duration: 1.7s;
+  /* animation-duration: 4s; */
 }
 .ilbuni:nth-of-type(3) {
   left: 10%;
   bottom: 10%;
   background-color: red;
-  animation-duration: 1s;
+  /* animation-duration: 3.3s; */
 }
