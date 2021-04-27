@@ -1,0 +1,13 @@
+.stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+}
+.door {
+  width: 100px;
+  height: 150px;
+  outline: 2px dashed yellow;
+}
