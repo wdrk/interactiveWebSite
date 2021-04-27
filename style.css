@@ -1,27 +1,5 @@
-.characters {
-  display: flex;
-  justify-content: space-around;
-  background-color: gray;
-}
-.ilbuni {
-  width: 100px;
-  height: 100px;
-}
-.ilbuni:hover {
-  cursor: pointer;
-}
-.ilbuni.a {
-  background-color: antiquewhite;
-}
-.ilbuni.b {
-  background-color: blue;
-}
-.ilbuni.c {
-  background-color: burlywood;
-}
-.ilbuni.d {
-  background-color: darkcyan;
-}
-.special {
-  border: 10px dashed red;
+.stage {
+  width: 100vw;
+  height: 75vw;
+  background-color: #fff000;
 }
