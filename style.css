@@ -1,9 +1,11 @@
 .stage {
+  position: relative;
   width: 100vw;
   height: 75vw;
   background-color: #fff000;
 }
 .ilbuni {
+  position: absolute;
   width: 100px;
   height: 100px;
   background-repeat: no-repeat;
@@ -11,11 +13,17 @@
   background-size: contain; /* 이미지의 가장 긴 부분에 맞춰서 크기 설정 */
 }
 .ilbuni:nth-of-type(1) {
+  left: 5%;
+  top: 5%;
   background-color: white;
 }
 .ilbuni:nth-of-type(2) {
+  left: 7%;
+  bottom: 40%;
   background-color: black;
 }
 .ilbuni:nth-of-type(3) {
+  left: 10%;
+  bottom: 10%;
   background-color: red;
 }
