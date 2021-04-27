@@ -10,7 +10,6 @@
   position: relative;
   width: 100px;
   height: 150px;
-  outline: 2px dashed yellow;
 }
 .door-back {
   position: absolute;
@@ -29,7 +28,6 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
-  outline: 2px dashed red;
 }
 .door:nth-child(1) .ilbuni {
   background-color: green;
