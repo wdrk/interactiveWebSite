@@ -28,6 +28,7 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
+  transform: translate3d(100%, 0, 0);
 }
 .door:nth-child(1) .ilbuni {
   background-color: green;
