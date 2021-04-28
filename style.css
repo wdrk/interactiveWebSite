@@ -12,6 +12,7 @@
   height: 150px;
 }
 .door-back {
+  overflow: hidden;
   position: absolute;
   left: 0;
   top: 0;
