@@ -38,7 +38,7 @@
   transition-duration: 0.5s;
   transition-delay: 0.5s;
 }
-.door:hover .ilbuni {
+.door-opened .ilbuni {
   transform: translate3d(0, 0, 0);
 }
 .door:nth-child(1) .ilbuni {
@@ -59,7 +59,7 @@
   transition: 0.4s;
   transform-origin: left;
 }
-.door:hover .door-body {
+.door-opened .door-body {
   /* 3D 효과가 필요한 오브젝트 자체에 perspective() 옵션을 설정하면
   오브젝트마다 균일하게 효과를 적용함 */
   transform: perspective(800px) rotateY(-110deg);
