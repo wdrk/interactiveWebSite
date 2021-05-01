@@ -1,40 +1,27 @@
-body {
-  background-color: yellowgreen;
+img {
+  max-width: 100%;
 }
 
-.header {
-  display: flex;
-  justify-content: left;
-  width: 100vw;
-  height: 50px;
-  background-color: green;
-  margin-bottom: 30px;
+.content {
+  height: 1000vh;
+  padding: 20%;
+  background-color: yellowgreen;
 }
 .output {
-  font-size: 2.5em;
-  color: white;
-}
-.mainContainer {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  height: 1000vh;
-}
-.items {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 20vh;
-  margin: 0px 20vw;
-}
-.text {
-  margin-bottom: 30px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .ilbuni {
-  width: 150px;
-  height: 150px;
-  background-color: white;
-  outline: 1px solid black;
+  width: 100px;
+  margin: 20px auto;
+  transition: 1s;
+}
+.ilbuni.zoom {
+  transform: scale(2);
 }
