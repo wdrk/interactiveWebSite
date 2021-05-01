@@ -1,6 +1,6 @@
 const ballElem = document.querySelector('.ball');
 
 function clickHandler(event) {
-  console.log(event.clientX, event.clientY);
+  ballElem.style.transform = `translate(${event.clientX}px, ${event.clientY}px)`;
 }
 window.addEventListener('click', clickHandler);
