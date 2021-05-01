@@ -5,4 +5,10 @@ function clickHandler(event) {
     event.clientY - 15
   }px)`;
 }
+
+function endHandler(event) {
+  ballElem.classList.add('end');
+}
+
 window.addEventListener('click', clickHandler);
+ballElem.addEventListener('transitionend', endHandler);
