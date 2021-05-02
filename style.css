@@ -1,9 +1,18 @@
+@keyframes ball-ani {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(200px, 200px);
+  }
+}
 .ball {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: red;
   transition: 0.3s;
+  animation: ball-ani 1s 3 alternate forwards;
 }
 .ball.end {
   background-color: dodgerblue;
