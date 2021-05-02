@@ -1,18 +1,13 @@
-const stageElem = document.querySelector('.stage');
-let currentElem;
-function closeTheDoor(elem) {
-  elem.classList.remove('door-opened');
-}
-function openTheDoor(elem) {
-  elem.classList.toggle('door-opened');
-  currentElem = elem;
-}
-function doorHandler(e) {
-  if (currentElem) {
-    closeTheDoor(currentElem);
-  }
-  if (e.target.classList.contains('door-body')) {
-    openTheDoor(e.target.parentNode);
-  }
-}
-stageElem.addEventListener('click', doorHandler);
+const ballElem = document.querySelector('.ball');
+
+ballElem.addEventListener('click', function () {
+  ballElem.style.animation = 'ball-ani 1s 3 forwards';
+});
+
+ballElem.addEventListener('animationend', function () {
+  ballElem.classList.add('end');
+});
+
+ballElem.addEventListener('animationiteration', function () {
+  console.log('반복!');
+});
