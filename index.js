@@ -1,18 +1,8 @@
-const stageElem = document.querySelector('.stage');
-let currentElem;
-function closeTheDoor(elem) {
-  elem.classList.remove('door-opened');
-}
-function openTheDoor(elem) {
-  elem.classList.toggle('door-opened');
-  currentElem = elem;
-}
-function doorHandler(e) {
-  if (currentElem) {
-    closeTheDoor(currentElem);
-  }
-  if (e.target.classList.contains('door-body')) {
-    openTheDoor(e.target.parentNode);
-  }
-}
-stageElem.addEventListener('click', doorHandler);
+'use strict';
+
+const timeId = setTimeout(() => {
+  console.log('setTimeout!');
+}, 1000);
+
+console.log(timeId);
+clearTimeout(timeId);
